@@ -182,6 +182,8 @@
 <!--              </div>-->
               <a href="assets/pdf/lostatuto.pdf" class="btn btn-common"><i class="icon-paper-clip"></i> Download</a>
               <a href="mailto:info@sindacatomiapatria.it" class="btn btn-danger"><i class="icon-speech"></i> Contattaci</a>
+
+              <button class="btn btn-success" data-toggle="modal" data-target="statutomodal"><i class="icon-speech"></i> Mostra</button>
             </div>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 img-fluid">
@@ -189,9 +191,22 @@
               <!--
               <img class="img-fluid" src="assets/img/gallery/portavoce.jpg" alt="">
               <object class="embed-responsive" data="assets/pdf/lostatuto.pdf" type="application/pdf" width="400" height="600"></object
+               <iframe class="embed-responsive-item" src='assets/pdf/lostatuto.pdf'></iframe>
               -->
-              <div class="embed-responsive embed-responsive-210by297">
-              <iframe class="embed-responsive-item" src='assets/pdf/lostatuto.pdf'></iframe>
+              <div class="modal" id="statutomodal">
+               <div class="modal-dialog">
+                 <div class="modal-content" >
+                   <div class="modal-header">
+                     <h2>LO STATUTO</h2>
+                     <div class="externalfile">
+                       <iframe src='assets/pdf/lostatuto.pdf' width="400" height="600"></iframe>
+
+                     </div>
+                   </div>
+
+
+                 </div>
+               </div>
               </div>
             </div>
           </div>
