@@ -3,7 +3,7 @@
   #hero-area .contents .head-title {
     font-size: 40px;
   }
-  .services-item .services-content h3 a {
+  .comunicati-item .comunicati-content h3 a {
     font-size: 14px;
   }
 }
@@ -14,10 +14,10 @@
     font-size: 30px;
     margin-bottom: 30px;
   }
-  .services-item .services-content h3 a {
+  .comunicati-item .comunicati-content h3 a {
     font-size: 14px;
   }
-  .services-item {
+  .comunicati-item {
     margin-bottom: 20px;
   }
 }
@@ -28,10 +28,10 @@
     font-size: 26px;
     margin-bottom: 30px;
   }
-  .services-item .services-content h3 a {
+  .comunicati-item .comunicati-content h3 a {
     font-size: 16px;
   }
-  .services-item {
+  .comunicati-item {
     margin-bottom: 20px;
   }
   .counter-section .counter p {
@@ -63,7 +63,7 @@
   #hero-area .contents p {
     font-size: 20px;
   }
-  .services-item {
+  .comunicati-item {
     margin-bottom: 20px;
   }
   .timeline li .line-title {
