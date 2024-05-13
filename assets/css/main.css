@@ -686,7 +686,9 @@ a.back-to-top:hover, a.back-to-top:focus {
     top: 0;
   }
   .navbar-brand img {
-    width: 55%;
+    max-width: 11vw;
+    display: block;
+    width: 100%;
   }
   #mobile-menu {
     display: none;
