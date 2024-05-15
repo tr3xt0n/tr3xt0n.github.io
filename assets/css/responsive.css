@@ -20,6 +20,9 @@
   .comunicati-item {
     margin-bottom: 20px;
   }
+  #hero-area-bg{
+    background-position: center;
+  }
 }
 
 /* only small tablets */
@@ -37,10 +40,13 @@
   .counter-section .counter p {
     font-size: 14px;
   }
+  #hero-area-bg{
+    background-position: center;
+  }
 }
 
 /* mobile or only mobile */
-@media (max-width: 800px) {
+@media (max-width: 768px) {
   .section-title {
     font-size: 22px;
     margin-bottom: 30px;
