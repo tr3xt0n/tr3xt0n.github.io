@@ -715,8 +715,8 @@ a.back-to-top:hover, a.back-to-top:focus {
 .hero-area-bg {
   width: 100vw;
   height: 100vh;
-  background: url('../img/background/altare.jpg');
-  background-position: center, center;
+  /*background: url('../img/background/altare.jpg');
+  background-position: center, center;*/
   z-index: -1;
   -webkit-background-size: cover;
   -moz-background-size: cover;
