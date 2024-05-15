@@ -40,7 +40,7 @@
 }
 
 /* mobile or only mobile */
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .section-title {
     font-size: 22px;
     margin-bottom: 30px;
@@ -62,6 +62,9 @@
   }
   #hero-area .contents p {
     font-size: 20px;
+  }
+  #hero-area-bg{
+    background-position: center center;
   }
   .comunicati-item {
     margin-bottom: 20px;
