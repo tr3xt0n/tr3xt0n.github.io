@@ -789,21 +789,21 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 /* ==========================================================================
-  Portfolio Section
+  Portfolio Section --> EVENTI
    ========================================================================== */
-#portfolios {
+#eventi {
   background: #f2f2f2;
 }
 
-#portfolios .mix {
+#eventi .mix {
   padding: 10px;
 }
 
-#portfolios .portfolio-item .shot-item {
+#eventi .evento-item .shot-item {
   margin: 0px;
 }
 
-#portfolio .mix {
+#evento .mix {
   display: none;
 }
 
@@ -828,13 +828,13 @@ a.back-to-top:hover, a.back-to-top:focus {
   cursor: pointer;
 }
 
-.portfolio-img {
+.evento-img {
   overflow: hidden;
   display: block;
   position: relative;
 }
 
-.portfolio-img img {
+.evento-img img {
   width: 100%;
 }
 
