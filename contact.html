@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="it"> <!-- Specifies the language of the document as Croatian (it) -->
+<head>
+    <meta charset="UTF-8"> <!-- Specifies the character encoding as UTF-8, which supports most characters -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Makes the website responsive on mobile devices -->
+    <title>CASA Cavaleri - Albenga Vadino</title> <!-- Title of the webpage -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"> <!-- Tailwind CSS framework for styling -->
+</head>
+<body class="bg-gray-100 flex flex-col min-h-screen"> <!-- Main body with background color and flex layout -->
+
+    <!-- Header Section -->
+    <header class="bg-blue-500 text-white py-4"> <!-- Blue background for the header with white text -->
+        <div class="container mx-auto flex justify-between items-center"> <!-- Flexbox container for header content -->
+            <h1 class="text-2xl font-bold">CASA Cavaleri</h1> <!-- Website title (company name) -->
+            <nav> <!-- Navigation links -->
+                <a href="index.html" class="text-white hover:underline px-3">Home</a> <!-- Link to the homepage -->
+                <a href="about.html" class="text-white hover:underline px-3">Chi sono</a> <!-- Link to the about page -->
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content Section -->
+    <main class="container mx-auto px-4 py-16 flex-grow"> <!-- Main content container with padding and flex-grow to fill space -->
+        <h2 class="text-4xl font-semibold text-center mb-8">Contattami</h2> <!-- Heading with large text size, centered, with margin-bottom -->
+        <p class="text-lg text-gray-700 text-center mb-6">Hai domande? Contattami!</p> <!-- A smaller text, centered with margin-bottom -->
+
+        <!-- Contact Form Section -->
+        <form action="contact_process.php" method="post" class="max-w-lg mx-auto bg-white shadow-md rounded-lg p-6"> <!-- Form container with specific width, background, and rounded corners -->
+            <div class="mb-4"> <!-- A div for a form field (each has its own label and input) -->
+                <label class="block text-gray-700 mb-2" for="name">Nome e Cognome</label> <!-- Label for name field -->
+                <input type="text" name="name" id="name" required class="border p-2 w-full"> <!-- Input field for name with border, padding, and full width -->
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-700 mb-2" for="email">Email</label> <!-- Label for email field -->
+                <input type="email" name="email" id="email" required class="border p-2 w-full"> <!-- Email input field with validation -->
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-700 mb-2" for="message">Messaggio</label> <!-- Label for message textarea -->
+                <textarea name="message" id="message" rows="5" required class="border p-2 w-full"></textarea> <!-- Textarea for the message with rows set to 5 and full width -->
+            </div>
+            <button type="submit" class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600">Invia Messaggio</button> <!-- Submit button with blue background and hover effect -->
+        </form>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 py-4 text-center text-white"> <!-- Footer with dark background and white text -->
+        <p>&copy; 2025 CASA Cavaleri. Tutti i diritti riservati..</p> <!-- Copyright notice -->
+    </footer>
+
+    <script src="js/app.js"></script> <!-- Link to an external JavaScript file for additional functionality -->
+</body>
+</html>
